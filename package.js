@@ -1,12 +1,14 @@
 {
-  "name": "kudyo-worker",
+  "name": "worker-app",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "node-fetch": "^3.3.2"
   }
 }
